@@ -1,0 +1,157 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd Desktop
+    5  ls
+    6  cd jychoi
+    7  ls
+    8  mkdir wnproject
+    9  cd wnproject/
+   10  git clone gjlee@sim1.mwnl.snu.ac.kr:~/git/ubertooth
+   11  sudo apt-get install git
+   12  history
+   13  sudo reboot
+   14  sudo apt-get install git
+   15  git clone gjlee@sim1.mwnl.snu.ac.kr:~/git/ubertooth
+   16  ls
+   17  cd wnproject/
+   18  git clone gjlee@sim1.mwnl.snu.ac.kr:~/git/ubertooth
+   19  ls
+   20  cd ubertooth/
+   21  ls
+   22  cd ubertooth-2015-10-R1/
+   23  ls
+   24  cd firmware/
+   25  ls
+   26  cd //
+   27  cd ..
+   28  ls
+   29  cd  home
+   30  ls
+   31  cd jychoi/
+   32  cd ~
+   33  ls
+   34  cd wnproject/
+   35  ls
+   36  cd ubertooth/
+   37  ls
+   38  cd ubertooth-2015-10-R1/
+   39  ls
+   40  cd host/
+   41  ls
+   42  cd ..
+   43  cd firmware/
+   44  ls
+   45  cd bluetooth_rxtx/
+   46  ls
+   47  cd ..
+   48  ls
+   49  vi start_gjlee.sh 
+   50  sudo apt-get install cmake libusb-1.0-0-dev make gcc g++ libbluetooth-dev pkg-config libpcap-dev python-numpy python-pyside python-qt4
+   51  cd ..
+   52  ls
+   53  cd ..
+   54  ls
+   55  cd ubertooth/
+   56  ls
+   57  cd libbtbb-2015-10-R1/
+   58  ls
+   59  mkdir build
+   60  cd build
+   61  cmake ..
+   62  make
+   63  sudo make install
+   64  ls
+   65  sudo ldconfig
+   66  cd ..
+   67  cd ubertooth-2015-10-R1/
+   68  ls
+   69  mkdir build
+   70  cd build
+   71  cmake ..
+   72  cd ..
+   73  ls
+   74  cd ubertooth-2015-10-R1/
+   75  ls
+   76  rm build
+   77  ls
+   78  rm -rf build
+   79  cd host
+   80  ls
+   81  mkdir build
+   82  cd build
+   83  cmake ..
+   84  make
+   85  sudo make install
+   86  sudo ldconfig
+   87  cd ..
+   88  ls
+   89  cd firmware/
+   90  sl
+   91  ls
+   92  ./start_gjlee.sh 
+   93  ls
+   94  cd bluetooth_rxtx/
+   95  ls
+   96  cd ..
+   97  vi start_gjlee.sh 
+   98  make bluetooth_rxtx
+   99  sudo apt-get install gcc-arm-none-eabi
+  100  make bluetooth_rxtx
+  101  ./start_gjlee.sh 
+  102  ls
+  103  cd ..
+  104  ls
+  105  cd firmware/
+  106  ls
+  107  vi bluetooth_rxtx/
+  108  cd bluetooth_rxtx/
+  109  ls
+  110  cd ..
+  111  vi start_gjlee.sh 
+  112  ./start_gjlee.sh 
+  113  ubertooth-dfu -d bluetooth_rxtx/bluetooth_rxtx.dfu -r
+  114  sudo ubertooth-dfu -d bluetooth_rxtx/bluetooth_rxtx.dfu -r
+  115  history
+  116  sudo ubertooth-btle -s11:22:33:44:55:66
+  117  sudo ubertooth-util -S
+  118  ls
+  119  sudo ubertooth-dfu -d bluetooth_rxtx/bluetooth_rxtx.dfu -r -0
+  120  sudo ubertooth-dfu -d bluetooth_rxtx/bluetooth_rxtx.dfu -r -U 0
+  121  sudo ubertooth-dfu -d bluetooth_rxtx/bluetooth_rxtx.dfu -r -U 1
+  122  history
+  123  sudo ubertooth-btle -s11:22:33:44:55:66 -U 0
+  124  sudo ubertooth-btle -f -U 1
+  125  cd ..
+  126  ls
+  127  cd firmware/
+  128  ls
+  129  cd bluetooth_rxtx/
+  130  ls
+  131  vi bluetooth_rxtx.c 
+  132  sudo apt-get remove vim-tiny
+  133  sudo apt-get install vim
+  134  vi bluetooth_rxtx.c 
+  135  cd 
+  136  cd wnproject/ubertooth/ubertooth-2015-10-R1/host/libubertooth/
+  137  ls
+  138  cd src/
+  139  ls
+  140  vi ubertooth.c 
+  141  cd ../../
+  142  cd build/
+  143  ls
+  144  cmake ..
+  145  make
+  146  sudo make install
+  147  cd ../../
+  148  ubertooth-btle -f -U 1
+  149  history
+  150  ls
+  151  cd firmware/
+  152  ls
+  153  cd bluetooth_rxtx/
+  154  ls
+  155  vi bluetooth_rxtx.c
+  156  history
+  157  history > ~/wnproject/guide

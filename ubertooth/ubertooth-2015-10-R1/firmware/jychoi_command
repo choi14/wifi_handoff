@@ -1,0 +1,6 @@
+# setup the ubertooth device
+sudo ubertooth-dfu -d bluetooth_rxtx/bluetooth_rxtx.dfu -r -U 0
+# transmit advertising packet
+sudo ubertooth-btle -s ec:55:f9:12:7c:c9 -U 0
+# stop the ubertooth device
+sudo ubertooth-util -S -U 0
