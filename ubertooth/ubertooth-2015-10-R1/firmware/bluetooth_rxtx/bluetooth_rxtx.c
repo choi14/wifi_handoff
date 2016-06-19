@@ -1244,8 +1244,8 @@ static void cc2400_rx()
 	cc2400_set(MANAND,  0x7fff);
 	cc2400_set(LMTST,   0x2b22);
 	cc2400_set(MDMTST0, 0x164b); // without PRNG
-//	cc2400_set(GRMDM,   0x0560); // un-buffered mode, GFSK
-  cc2400_set(GRMDM,   0x0100); // un-buffered mode, GFSK //gjlee
+	//	cc2400_set(GRMDM,   0x0560); // un-buffered mode, GFSK
+	cc2400_set(GRMDM,   0x0100); // un-buffered mode, GFSK //gjlee
 	// 0 00 00 0 010 00 0 00 0 1
 	//      |  | |   |  +--------> CRC off
 	//      |  | |   +-----------> sync word: 8 MSB bits of SYNC_WORD
