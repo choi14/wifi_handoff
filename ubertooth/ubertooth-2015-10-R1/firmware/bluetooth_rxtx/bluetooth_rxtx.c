@@ -2566,7 +2566,7 @@ void bt_slave_le() {
 		adv_ind[adv_ind_len+1] = (calc_crc >>  8) & 0xff;
 		adv_ind[adv_ind_len+2] = (calc_crc >> 16) & 0xff;
 		
-		msleep(500); //jychoi: control beacon transmission time
+		msleep(200); //jychoi: control beacon transmission time
 	}
 }
 
